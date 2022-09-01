@@ -1,0 +1,28 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    .img-slider img {
+        height: 330px;
+        width: 1080px;
+        margin-left: 15px;
+        margin-top: 100px;
+    }
+    
+    .img-slider {
+        display: flex;
+        float: left;
+        position: relative;
+        width: 1080px;
+        height: 720px;
+    }
+    
+    .section1 {
+        width: 1080px;
+        overflow: hidden;
+        justify-content: center;
+        align-items: center;
+        margin: 0px auto;
+    }
